@@ -1,0 +1,131 @@
+.ache-tres{
+    font-size: 40px;
+    padding: 14px 0;
+    text-align: left;
+    
+}
+
+.linea-debajo2{
+    width: 70px;
+    height: 7px;
+    align-items: left;
+    margin-bottom: 20px;
+}
+.texto-linea-debajo2{
+    text-align: left;
+    font-size: 19px;
+    line-height: 29px;
+    margin-bottom: 17px;
+    color: rgb(41, 41, 41);
+    text-align: justify;
+}
+
+.imagen-siempre{
+    width: 500px;
+    display: flex;
+    margin-right: 40px;
+}
+
+.grupo-texto{
+}
+
+/*Contenedor */
+.contenedor2{
+    width: 95%;
+    max-width: 1100px;
+    padding: 15px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+@media (max-width: 1020px){
+    .contenedor2{
+        display: block;
+    }
+    .texto-linea-debajo2{
+        
+        font-size: 1.1rem;
+        line-height: 25px;
+        margin-bottom: 13px;
+        color: rgb(41, 41, 41);
+        text-align: justify;
+    }
+    
+    .imagen-siempre{
+        width: 100%;
+        display: flex;
+        margin-right: 40px;
+    }
+}
+/* banner*/
+.banners{
+    width: 100%;
+    height: auto;
+}
+.banners img{
+    width: 100%;
+}
+
+
+/* nosotros equipo de trabajo icono*/
+.ofrecemos1{
+    
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0;
+}
+
+.ofrecemos{
+    width: 100%;
+
+}
+.row3 img{
+    width: 150px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.row3 h3{
+    text-align: center;
+}
+
+
+
+.cards3{
+    display: flex;
+    margin: 40px auto 40px auto;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.cards3 .row3{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 250px;
+    justify-content: center;
+    align-items: center;
+}
+
+.cards .row h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: #62B12F;
+}
+
+.cards .row p{
+    text-align: center;
+    color: rgb(41, 41, 41);
+    font-size: 1rem;
+    line-height: 22px;
+}

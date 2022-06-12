@@ -1,0 +1,34 @@
+.texto-linea-debajo5{
+    line-height: 22px;
+    font-size: 1rem;
+    margin-bottom: 15px;
+}
+
+.titulo2{
+    font-size: 1.4rem;
+    margin-bottom: 15px;
+    color: #62B12F;
+}
+.subtitulo{
+    margin-bottom: 8px;
+}
+.lista-terminos{
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+li p{
+    margin-left: 22px;
+    margin-bottom: 8px;
+
+}
+
+.cuadro-importante{
+    background-color: rgb(236, 236, 236);
+    border-radius: 12px;
+    padding: 21px;
+    text-align: justify;
+}
+
+.cuadro-importante{
+    line-height: 22px;
+}

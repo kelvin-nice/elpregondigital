@@ -1,0 +1,175 @@
+/* imagen y texto sacado de nostros*/
+.ofrecemos3{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+.ofrecemos8{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    padding: 20px 0;
+}
+.contenedor6{
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.row7 .a-imagen img{
+    width: 350px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 0px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.row7 .a-imagen img:hover{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+.row6 h3{
+    text-align: center;
+}
+/*
+.row5 img:hover{
+    
+    
+    transform: scale(1.09);
+} */
+
+
+.cards6{
+    display: flex;
+    margin: 40px auto 20px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/* Elige tu marca */
+.text-to-logo{
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 23px;
+    margin-bottom: 20px;
+}
+.text-to-logo p{
+    margin-bottom: 13px;
+}
+
+.text-izquierda-logo{
+    float: left;
+    width: 600px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+}
+.text-to-logo div h3{
+    margin-bottom: 15px;
+}
+.li-logotipo{
+    line-height: 26px;
+}
+
+/* COMBOS */
+
+.contenedor8{
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.row8 img{
+    width: 300px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+}
+.row8 h3{
+    text-align: center;
+}
+
+
+
+.cards8{
+    display: flex;
+    margin: 30px auto 60px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards8 .row8{
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin: auto;
+    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    box-shadow: 2px 2px 6px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    
+}
+.cards8 .row8 .textos-abajo-conjunto{
+    border-radius: solid 2px black;
+}
+.cards8 .row8 .textos-abajo-conjunto .contenido-text{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.row8 .textos-abajo-conjunto p{
+    font-weight: 600;
+    color: rgb(139, 139, 139);
+}
+
+.row8 .boton-contrato{
+    background-color: #62B12F;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 16px 77px;
+    
+}
+.row8 .boton-contrato:hover{
+    background-color: #b4eb8f;
+    color: rgb(0, 0, 0);
+    transition: all .5s;
+}
+
+.row8 .textos-abajo-conjunto{
+    margin-top: 36px;
+}
+
+.row8 .contenido-text{
+    color: rgb(20, 148, 3);
+    font-weight: 700;
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+
+
+
+.cards8 .row h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: #62B12F;
+}
+
+.cards8 .row8 p{
+    text-align: center;
+    color: rgb(41, 41, 41);
+    font-size: 1rem;
+    line-height: 22px;
+}

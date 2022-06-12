@@ -1,0 +1,63 @@
+/* nosotros equipo de trabajo icono*/
+.ofrecemos1{
+    width: 100%;
+    background-color: rgb(245, 245, 245);
+    padding: 20px 0;
+}
+
+
+.contenedor5{
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.row5 img{
+    width: 150px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 15px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+.row5 h3{
+    text-align: center;
+}
+/*
+.row5 img:hover{
+    
+    
+    transform: scale(1.09);
+} */
+
+
+.cards5{
+    display: flex;
+    margin: 40px auto 60px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.cards5 .row5{
+    
+    padding: 25px 30px;
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.cards5 .row h3{
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 10px;
+    font-weight: 900;
+    color: #62B12F;
+}
+
+.cards5 .row5 p{
+    text-align: center;
+    color: rgb(41, 41, 41);
+    font-size: 1rem;
+    line-height: 22px;
+}

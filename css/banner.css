@@ -1,0 +1,214 @@
+
+
+.fondo-banner{
+    width: 100%;
+    height: 550px;
+    background-image: linear-gradient(145deg, rgba(0, 0, 0, 0) 35%,  rgba(63, 63, 63, 0) );
+    background-image: url(../img/banner-01.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+    margin-bottom: 0px;
+}
+
+@media (max-width: 1200px){
+    .fondo-banner{
+        width: 100%;
+        height: 550px;
+        background-image: linear-gradient(145deg, rgba(0, 0, 0, 0) 35%,  rgba(63, 63, 63, 0) );
+        background-image: url(../img/banner-02.jpg);
+        background-size: 100%;
+    }
+}
+
+/* texto del banner */
+
+.fondo-banner .contentb{
+    width: 98%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.texto-banner{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 50%;
+    left: 50%;
+    z-index: 1200;
+    transform: translateX(-98%) translateY(-85%);
+    
+}
+
+
+@media (max-width: 1100px){
+    .texto-agencia{
+        font-size: 40px;
+    }
+    .texto-banner{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 50%;
+        left: 50%;
+        z-index: 1200;
+        transform: translateX(-90%) translateY(-74%);
+        
+    }
+}
+
+@media (max-width: 936px){
+    .texto-agencia{
+        font-size: 20px;
+        
+    }
+    .texto-chico{
+        line-height: 15px;
+        font-size: 12px;
+        font-weight: 300;
+        
+    }
+    
+    .texto-banner{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        top: 10%;
+        left: 20px;
+        z-index: 1200;
+        transform: none;
+        
+    }
+}
+
+@media (max-width: 936px){
+    .fondo-banner{
+        width: 100%;
+        height: 600px;
+        background-image: linear-gradient(145deg, rgba(0, 0, 0, 0) 35%,  rgba(63, 63, 63, 0) );
+        background-image: url(../img/banner-04.jpg);
+        background-size: 100%;
+    }
+}
+
+@media (max-width: 596px){
+    .texto-banner{
+        position: absolute;
+        color: rgb(255, 255, 255);
+        display: none;
+        
+            
+    }
+
+        
+    .fondo-banner{
+        width: 100%;
+        height: 400px;
+        background-image: none;
+        background-image: url(../img/banner-03.jpg);
+        background-size: 100%;
+    }
+    
+}
+
+
+
+
+
+
+
+.texto-agencia{
+    font-size: 60px;
+}
+
+.texto-chico{
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 300;
+    
+}
+
+.texto-banner a{
+    padding: 15px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    background-color: #ffffff;
+    border-radius: 3px;
+    margin-top: 19px;
+    width: 145px;
+    font-weight: 700;
+    font-size: 20px;
+    display: block;
+    cursor: pointer;
+    color: black;
+    position: absolute;
+}
+.texto-banner a:hover{
+    background-color: #9de661;
+    
+    
+    transition: all 0.5s;
+}
+
+
+
+
+
+/* bienvenidos al pregon digital*/
+.grupito{
+    align-items: center;
+    display: flex;
+    margin-bottom: 7px;
+}
+.grupito img{
+    margin-right: 10px;
+    width: 8px;
+    height: 25px;
+}
+
+.grupito p{
+    font-size: 19px;
+    font-weight: 700;
+}
+
+
+
+
+
+/* imagen emoresario*/
+
+
+
+
+
+/*
+.empresario-seccion{
+    width: 100%;
+    position: relative;
+    
+}
+
+.empresario-imagen{
+    width: 98%;
+    max-width: 1100px;
+    padding: 2px;
+    margin-left: 0;
+    margin-right: 0;
+    justify-content: center;
+    align-items: center;
+    margin-top: -487px;
+    position: absolute;
+    display: flex;
+    right: 0;
+    
+}
+
+
+.empresario{
+    width: 800px;
+    height: ;
+    right: 0;
+    margin-left: auto;
+    margin-right: 1px;
+    z-index: 1000;
+}
+*/

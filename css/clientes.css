@@ -1,0 +1,53 @@
+/* imagen y texto sacado de nostros*/
+.ofrecemos3{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    padding: 20px 0;
+}
+
+.ofrecemos8{
+    width: 100%;
+    background-color: rgb(238, 238, 238);
+    padding: 20px 0;
+}
+.contenedor6{
+    width: 95%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+
+.row9 .a-imagen img{
+    width: 240px;
+    justify-content: center;
+    margin: auto;
+    display: block;
+    margin-bottom: 30px;
+    transition: 0.2s ease-in-out;
+    margin-bottom: 25px;
+}
+.row9 .a-imagen img:hover{
+    background-color: rgb(0, 0, 0);
+    opacity: 0.6;
+}
+.row9 h3{
+    text-align: center;
+}
+.row9{
+    margin-right: 20px;
+}
+/*
+.row5 img:hover{
+    
+    
+    transform: scale(1.09);
+} */
+
+
+.cards9{
+    display: flex;
+    margin: 40px auto 20px auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+

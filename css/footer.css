@@ -1,0 +1,110 @@
+footer{
+    background: rgb(0, 0, 0);
+    color: cornsilk;
+    width: 100%;
+    padding-top: 30px;
+
+}
+
+.pie-content{
+    width: 98%;
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    color: rgb(202, 202, 202);
+    margin-bottom: 60px;
+}
+
+@media (max-width: 1020px){
+    .pie-content{
+        flex-wrap: wrap;
+    }
+}
+.card3{
+    top: 0;
+    margin-top: 30px ;
+    padding: 15px;
+    width: 300px;
+    margin-right: 20px;
+
+}
+.card3 img{
+    width: 240px;
+    margin-bottom: 10px;
+}
+.card3 h3{
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #78d13c;
+    font-weight: 500;
+}
+
+.text-pie1{
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+.text-pie2{
+    font-size: 16px;
+}
+.card3 .flechita{
+    width: 10px;
+    margin-right: 8px;
+}
+.grupo-flecha{
+    display: flex;
+    align-self: center;
+    justify-content: left;
+}
+
+
+.text-pie{
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+}
+
+.correos{
+    text-decoration: none;
+    color: rgb(221, 246, 180);
+    line-height: 22px;
+}
+
+.correos:hover{
+    color: white;
+    transition: all .5s;
+}
+
+.down{
+    background: rgb(0, 0, 0);
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 0.2px solid rgb(63, 63, 63);
+}
+
+.down p{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    font-size: 14px;
+    color: rgb(165, 165, 165);
+} 
+.redes-sociales-abajo span{
+    color: white;
+    font-size: 25px;
+    left: 0;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.redes-sociales-abajo span:hover{
+    color: rgb(210, 255, 121);
+    transition: all .5s;
+}
+
